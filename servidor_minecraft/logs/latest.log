@@ -1,0 +1,1052 @@
+[01:24:04] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.18.2
+[01:24:07] [main/INFO]: Loading 109 mods:
+	- architectury 16.1.4
+	- c2me 0.3.2.0.0+1.21.5
+	   |-- c2me-base 0.3.2.0.0+1.21.5
+	   |-- c2me-client-uncapvd 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-general-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.2.0.0+1.21.5
+	   |-- c2me-notickvd 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-allocs 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-chunkio 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-dfc 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-math 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-scheduling 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-worldgen-general 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-worldgen-vanilla 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-serializer 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-system 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunkio 0.3.2.0.0+1.21.5
+	   |-- c2me-server-utils 0.3.2.0.0+1.21.5
+	   |-- c2me-threading-lighting 0.3.2.0.0+1.21.5
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- java 21
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- roughlyenoughitems 19.0.806
+	   \-- error_notifier 1.0.11
+	- server_translations 2.5.0+1.21.5-rc1
+	   |-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- server_translations_api 2.5.0+1.21.5-rc1
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- simpleupdatechecker 1.1.0+1.21.3
+	- voicechat 1.21.5-2.5.30
+	   \-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	- yet-another-minecraft-bingo 2.6.2+mc1.21.5
+	   |-- com_zaxxer_hikaricp 5.1.0
+	   |-- fabric-language-kotlin 1.13.1+kotlin.2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-reflect 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.10
+	   |    |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.10
+	   |    |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.6.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |    |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   |    \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	   |-- org_xerial_sqlite-jdbc 3.46.0.0
+	   \-- yet-another-minecraft-bingo-api 2.6.2
+	- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yosbr 0.1.2
+[01:24:08] [main/INFO]: Applying default options... (YOSBR)
+[01:24:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/SvGotas/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:24:08] [main/INFO]: Compatibility level set to JAVA_16
+[01:24:08] [main/INFO]: Compatibility level set to JAVA_21
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[01:24:08] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:24:08] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@16.1.4 (*) (defined in c2me)
+[01:24:08] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[01:24:08] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[01:24:08] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:24:08] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[01:24:09] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[01:24:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[01:24:16] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[01:24:16] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[01:24:16] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[01:24:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[01:24:16] [main/INFO]: Initializing ServerTranslations.
+[01:24:17] [main/INFO]: Initialized ServerTranslations.
+[01:24:17] [main/INFO]: Language set to en_us: English (US)
+[01:24:18] [ForkJoinPool.commonPool-worker-1/ERROR]: Failed to read Modrinth version list! Got status code 404 with body ''
+[01:24:18] [main/INFO]: [voicechat] Compatibility version 18
+[01:24:18] [main/INFO]: [voicechat] Loading plugins
+[01:24:18] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[01:24:18] [main/INFO]: [voicechat] Initializing plugins
+[01:24:18] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[01:24:18] [main/INFO]: [voicechat] Registering events for 'yet-another-minecraft-bingo'
+[01:24:18] [main/INFO]: Starting Bingo migration runner...
+[01:24:18] [main/INFO]: Starting Bingo Server application...
+[01:24:18] [main/WARN]: Tried to register resource reload listener yet-another-minecraft-bingo:server_reload twice!
+[01:24:18] [main/INFO]: [ServerDatapackManager] isLobbyMode=true - Installing the bingo datapack in /workspaces/SvGotas/servidor_minecraft/world/datapacks/bingo.zip
+[01:24:19] [main/INFO]: Running database migrations...
+[01:24:19] [main/INFO]: HikariPool-1 - Starting...
+[01:24:19] [main/INFO]: HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5a759671
+[01:24:19] [main/INFO]: HikariPool-1 - Start completed.
+[01:24:19] [main/INFO]: [ConnectionFactory] Migrating database from version 6 to 6...
+[01:24:19] [main/INFO]: Running database migrations... - done in 131.943003ms!
+[01:24:19] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:24:21] [ForkJoinPool.commonPool-worker-1/ERROR]: Invalid path in mod resource-pack server_translations: server_translations:lang/et_EE.json, ignoring
+[01:24:21] [main/INFO]: Loaded 1373 recipes
+[01:24:21] [main/INFO]: Loaded 1484 advancements
+[01:24:21] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 7662 translation keys
+[01:24:21] [main/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.188 ms
+[01:24:21] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[01:24:21] [Server thread/INFO]: Loading properties
+[01:24:21] [Server thread/INFO]: Default game type: SURVIVAL
+[01:24:21] [Server thread/INFO]: Generating keypair
+[01:24:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:24:22] [Server thread/INFO]: Using epoll channel type
+[01:24:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:24:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:24:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:24:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:24:22] [Server thread/INFO]: Preparing level "world"
+[01:24:22] [Server thread/INFO]: Enforcing safe world random access
+[01:24:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 419.2 ms
+[01:24:23] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[01:24:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 47.46 μs
+[01:24:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.727 ms
+[01:24:23] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.476 ms
+[01:24:23] [Server thread/INFO]: Done (1.045s)! For help, type "help"
+[01:24:23] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:24:23] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[01:24:23] [Server thread/INFO]: [REI] Plugins (3):
+[01:24:23] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:24:23] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:24:23] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:24:23] [Server thread/INFO]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[01:24:23] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 5.959 ms, totaling 145.4 ms.
+[01:24:23] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[01:24:23] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[01:24:23] [Server thread/INFO]: [REI] Plugins (3):
+[01:24:23] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[01:24:23] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[01:24:23] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[01:24:23] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[01:24:23] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 634.3 μs, totaling 174.0 ms.
+[01:24:23] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01:24:23] [Server thread/INFO]: [ScopeManager] bingo.zip datapack exists - starting with isLobbyMode=true
+[01:24:23] [Server thread/INFO]: [ScopeManager] Starting server scope...
+[01:24:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[01:24:24] [Server thread/ERROR]: Error decoding persistent state yet-another-minecraft-bingo
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at knot/com.mojang.serialization.DynamicOps.lambda$getMap$9(DynamicOps.java:132) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DynamicOps.getMap(DynamicOps.java:130) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_5379.getMap(class_5379.java:167) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.codecs.DispatchedMapCodec.decode(DispatchedMapCodec.java:40) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.OptionalFieldCodec.decode(OptionalFieldCodec.java:34) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$2.decode(MapCodec.java:77) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:325) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$RecursiveMapCodec.decode(MapCodec.java:112) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:158) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$RecursiveCodec.decode(Codec.java:212) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_5699$7.decode(class_5699.java:695) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-8.0.16.jar:?]
+	at knot/me.jfenn.bingo.impl.JsonSerializers$CodecSerializer.deserialize(JsonSerializers.kt:41) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.ContextualSerializer.deserialize(ContextualSerializer.kt:67) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.CompositeDecoder.decodeSerializableElement$default(Decoding.kt:539) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:111) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:84) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/me.jfenn.bingo.common.game.GameOverService$PlayerState$$serializer.deserialize(GameOverService.kt:64) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.game.GameOverService$PlayerState$$serializer.deserialize(GameOverService.kt:64) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.CompositeDecoder.decodeSerializableElement$default(Decoding.kt:539) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:111) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.MapLikeSerializer.readElement(CollectionSerializers.kt:84) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/me.jfenn.bingo.common.game.GameOverService$GameOverInfo$$serializer.deserialize(GameOverService.kt:39) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.game.GameOverService$GameOverInfo$$serializer.deserialize(GameOverService.kt:39) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeNullableSerializableElement(AbstractDecoder.kt:78) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/me.jfenn.bingo.common.state.BingoState$$serializer.deserialize(BingoState.kt:31) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.state.BingoState$$serializer.deserialize(BingoState.kt:31) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.json.internal.JsonStreamsKt.decodeByReader(JsonStreams.kt:111) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.json.JvmStreamsKt.decodeFromStream(JvmStreams.kt:61) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/me.jfenn.bingo.common.state.PersistentStateManager.getFromWorld(PersistentStateManager.kt:73) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.CommonModuleKt.commonModule$lambda$156$lambda$155$lambda$53(CommonModule.kt:196) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.instance.InstanceFactory.create(InstanceFactory.kt:50) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.instance.ScopedInstanceFactory.create(ScopedInstanceFactory.kt:43) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.instance.ScopedInstanceFactory$get$1.invoke(ScopedInstanceFactory.kt:55) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.instance.ScopedInstanceFactory$get$1.invoke(ScopedInstanceFactory.kt:53) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.mp.KoinPlatformTools.synchronized(KoinPlatformTools.kt:36) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.instance.ScopedInstanceFactory.get(ScopedInstanceFactory.kt:53) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.registry.InstanceRegistry.resolveInstance$koin_core(InstanceRegistry.kt:109) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.scope.Scope.resolveValue(Scope.kt:248) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.scope.Scope.resolveInstance(Scope.kt:234) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.koin.core.scope.Scope.get(Scope.kt:206) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.scope.ScopeManager._init_$lambda$0(ScopeManager.kt:101) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$3(ServerEventsImpl.kt:47) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49) ~[fabric-lifecycle-events-v1-2.5.1+5cbce67349-a0de7e716556e27c.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.handler$zmc000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:2697) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:24:24] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[01:24:25] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 382.471252ms!
+[01:24:25] [Server thread/INFO]: [DataLoader] Reloading bingo data...
+[01:24:25] [Server thread/INFO]: [TeamPresetLoader] Reloading BINGO team presets...
+[01:24:25] [Server thread/INFO]: [ObjectiveLoader] Reloading BINGO objectives...
+[01:24:25] [Server thread/INFO]: [SpawnKitLoader] Reloading BINGO spawn kits...
+[01:24:25] [Server thread/ERROR]: [kits/playerkit.json] Error reading config:
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Collectors.java:180) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at knot/com.mojang.serialization.DynamicOps.lambda$getMap$9(DynamicOps.java:132) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DynamicOps.getMap(DynamicOps.java:130) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_5379.getMap(class_5379.java:167) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.codecs.DispatchedMapCodec.decode(DispatchedMapCodec.java:40) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.OptionalFieldCodec.decode(OptionalFieldCodec.java:34) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder$4.decode(MapDecoder.java:94) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$2.decode(MapCodec.java:77) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:325) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$RecursiveMapCodec.decode(MapCodec.java:112) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:158) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$RecursiveCodec.decode(Codec.java:212) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_5699$7.decode(class_5699.java:695) ~[server-intermediary.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder$2.decode(Decoder.java:63) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Codec$2.decode(Codec.java:75) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-8.0.16.jar:?]
+	at knot/me.jfenn.bingo.impl.JsonSerializers$CodecSerializer.deserialize(JsonSerializers.kt:41) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.ContextualSerializer.deserialize(ContextualSerializer.kt:67) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.CompositeDecoder.decodeSerializableElement$default(Decoding.kt:539) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.CollectionLikeSerializer.readElement(CollectionSerializers.kt:80) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.readElement$default(CollectionSerializers.kt:51) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.merge(CollectionSerializers.kt:36) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.internal.AbstractCollectionSerializer.deserialize(CollectionSerializers.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableValue(AbstractDecoder.kt:43) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.encoding.AbstractDecoder.decodeSerializableElement(AbstractDecoder.kt:70) ~[org_jetbrains_kotlinx_kotlinx-see-jvm-1.8.0-e9c8191aa656696a.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableElement(StreamingJsonDecoder.kt:168) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/me.jfenn.bingo.common.spawn.SpawnKit$$serializer.deserialize(SpawnKit.kt:6) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.spawn.SpawnKit$$serializer.deserialize(SpawnKit.kt:6) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.json.internal.JsonStreamsKt.decodeByReader(JsonStreams.kt:111) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/kotlinx.serialization.json.JvmStreamsKt.decodeFromStream(JvmStreams.kt:61) ~[org_jetbrains_kotlinx_kotlinx-sen-jvm-1.8.0-30c9fb473682c6fb.jar:?]
+	at knot/me.jfenn.bingo.common.spawn.SpawnKitLoader$loadSpawnKits$$inlined$readFileOrResource$2.invoke(TrackedFileService.kt:50) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.spawn.SpawnKitLoader$loadSpawnKits$$inlined$readFileOrResource$2.invoke(TrackedFileService.kt:44) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.config.TrackedFileService.readFileOrResource(TrackedFileService.kt:79) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.spawn.SpawnKitLoader.loadSpawnKits(SpawnKitLoader.kt:108) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.data.DataLoaderManager._init_$lambda$3(DataLoaderManager.kt:37) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.scope.ScopeManager._init_$lambda$0(ScopeManager.kt:63) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.event.EventBus.emit(EventBus.kt:31) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.impl.ServerEventsImpl._init_$lambda$3(ServerEventsImpl.kt:47) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49) ~[fabric-lifecycle-events-v1-2.5.1+5cbce67349-a0de7e716556e27c.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.handler$zmc000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:2697) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:675) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:24:25] [Server thread/INFO]: [TierListLoader] Reloading BINGO tier lists...
+[01:24:25] [Server thread/INFO]: [TagLoader] Reloading BINGO objective tags...
+[01:24:25] [Server thread/INFO]: [DataLoader] Reloading bingo data... - done in 416.039803ms!
+[01:24:25] [Server thread/INFO]: [DataLoader] Determining unobtainable items...
+[01:24:25] [Server thread/INFO]: [UnobtainableItemsLoader] Excluding 0 unobtainable items
+[01:24:25] [Server thread/INFO]: [DataLoader] Determining unobtainable items... - done in 41.781109ms!
+[01:24:25] [Server thread/INFO]: GameState changed: UNINITIALIZED -> PREGAME
+[01:24:25] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:24:25] [Server thread/INFO]: [CardService] Using random BINGO card seed: 4575795864972932495
+[01:24:26] [Server thread/INFO]: [MenuController] Locating spawn position...
+[01:24:29] [Server thread/INFO]: [MenuController] Locating spawn position... - done in 3.051689415s!
+[01:24:29] [Server thread/INFO]: Set lobby spawnpoint to ([0, 17, 1], -180.0)
+[01:24:29] [Server thread/INFO]: [MenuController] Locating menu position...
+[01:24:29] [Server thread/INFO]: [MenuController] Locating menu position... - done in 474.241079ms!
+[01:24:29] [Server thread/INFO]: Set menu position to ( 0.000E+0  1.700E+1 -5.000E+0  1.000E+0)
+[01:24:29] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[01:24:29] [Server thread/INFO]: [MenuController] Locating team entities...
+[01:24:30] [Server thread/INFO]: [MenuController] Locating team entities... - done in 255.424208ms!
+[01:24:30] [Server thread/INFO]: Re-drawing map_null for team null (23.317651ms)
+[01:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6827ms or 136 ticks behind
+[01:24:30] [Server thread/INFO]: Re-drawing map_null for team null (174.113175ms)
+[01:24:30] [Server thread/INFO]: [CardService] Validating tag in_overworld.json...
+[01:24:30] [Server thread/ERROR]: [ItemStackFactory] Error parsing item component minecraft:enchantments for item.minecraft.enchanted_book
+java.lang.IllegalStateException: Not a number: {"mending":1}; Failed to get element minecraft:levels missed input: {"levels":{"mending":1}}
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at knot/me.jfenn.bingo.impl.ItemStackFactory$ItemStackImpl.setComponentsString(ItemStackFactory.kt:182) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.init(ItemObjectiveManager.kt:80) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.find(ItemObjectiveManager.kt:54) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.find(ItemObjectiveManager.kt:21) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.BingoObjectiveManager.findFromProviders(BingoObjectiveManager.kt:49) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.BingoObjectiveManager.find(BingoObjectiveManager.kt:61) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives(CardService.kt:625) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives(CardService.kt:631) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives$default(CardService.kt:617) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.validateTag(CardService.kt:69) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.validateLists(CardService.kt:57) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.data.DataLoaderManager.lambda$3$lambda$2(DataLoaderManager.kt:55) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:882) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:178) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:864) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:858) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:826) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:712) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:24:30] [Server thread/ERROR]: [in_overworld.json] yet-another-minecraft-bingo:challenge/nbt_mending_book->0: Item minecraft:enchanted_book NBT failed to parse
+[01:24:30] [Server thread/ERROR]: [ItemStackFactory] Error parsing item component minecraft:enchantments for item.minecraft.enchanted_book
+java.lang.IllegalStateException: Not a number: {"minecraft:mending":1}; Failed to get element minecraft:levels missed input: {"levels":{"minecraft:mending":1}}
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at knot/me.jfenn.bingo.impl.ItemStackFactory$ItemStackImpl.setComponentsString(ItemStackFactory.kt:182) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.init(ItemObjectiveManager.kt:80) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.find(ItemObjectiveManager.kt:54) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.ItemObjectiveManager.find(ItemObjectiveManager.kt:21) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.BingoObjectiveManager.findFromProviders(BingoObjectiveManager.kt:49) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.objective.BingoObjectiveManager.find(BingoObjectiveManager.kt:61) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives(CardService.kt:625) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives(CardService.kt:631) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.createObjectives$default(CardService.kt:617) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.validateTag(CardService.kt:69) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.card.CardService.validateLists(CardService.kt:57) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.common.data.DataLoaderManager.lambda$3$lambda$2(DataLoaderManager.kt:55) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:882) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:178) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:864) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:858) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:826) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:712) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:24:30] [Server thread/ERROR]: [in_overworld.json] yet-another-minecraft-bingo:challenge/nbt_mending_book->1: Item minecraft:enchanted_book NBT failed to parse
+[01:24:30] [Server thread/ERROR]: [in_overworld.json] yet-another-minecraft-bingo:challenge/nbt_mending_book: Only 1 of 3 dependencies could be resolved
+[01:24:30] [Server thread/INFO]: [CardService] Validating list advancements.tierlist.json...
+[01:24:30] [Server thread/ERROR]: [advancements.tierlist.json] minecraft:nether/use_lodestone: Not found
+[01:24:30] [Server thread/ERROR]: [advancements.tierlist.json] minecraft:husbandry/break_diamond_hoe: Not found
+[01:24:30] [Server thread/INFO]: [CardService] Validating list items.tierlist.json...
+[01:24:30] [Server thread/ERROR]: [items.tierlist.json] Item tag '#minecraft:music_discs' is missing!
+[01:24:30] [Server thread/ERROR]: [items.tierlist.json] Item tag '#minecraft:music_discs' is missing!
+[01:24:30] [Server thread/ERROR]: [items.tierlist.json] minecraft:scute: Not found
+[01:25:22] [Server thread/INFO]: Silver_boy0607[/100.114.62.119:50032] logged in with entity id 502 at (-313.69999998807907, 82.0, 251.80093893464326)
+[01:25:22] [Server thread/INFO]: Silver_boy0607 joined the game
+[01:25:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[01:26:01] [Server thread/INFO]: DenverKxng[/100.92.120.57:61915] logged in with entity id 868 at (420.4171632158185, 86.0511875951286, 411.4273869359244)
+[01:26:01] [Server thread/INFO]: DenverKxng joined the game
+[01:26:01] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting stats hash to player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01:26:01] [Server thread/INFO]: [voicechat] Received secret request of DenverKxng (18)
+[01:26:01] [Server thread/INFO]: [voicechat] Sent secret to DenverKxng
+[01:26:02] [IO-Worker-1/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01:26:02] [IO-Worker-1/INFO]: [StatsSyncController] Broadcasting 2 known gameIds to the client
+[01:26:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01:26:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[01:26:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DenverKxng (92bacc08-07e1-34b6-901c-37eb5a89026e) successfully connected to voice chat
+[01:27:41] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7579785288271554636
+[01:27:41] [Server thread/INFO]: Re-drawing map_null for team null (86.659786ms)
+[01:27:42] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:27:42] [Server thread/INFO]: [CardService] Using random BINGO card seed: 3794314918181675074
+[01:27:42] [Server thread/INFO]: Re-drawing map_null for team null (128.511731ms)
+[01:27:43] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:27:43] [Server thread/INFO]: [CardService] Using random BINGO card seed: -8352735930624589891
+[01:27:43] [Server thread/INFO]: Re-drawing map_null for team null (2.237120ms)
+[01:27:43] [Server thread/INFO]: Re-drawing map_null for team null (56.673684ms)
+[01:27:44] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5532092698588299088
+[01:27:44] [Server thread/INFO]: Re-drawing map_null for team null (41.925113ms)
+[01:27:45] [Server thread/INFO]: [CardService] Using random BINGO card seed: -2034988470788790373
+[01:27:45] [Server thread/INFO]: Re-drawing map_null for team null (44.232007ms)
+[01:27:47] [Server thread/INFO]: Creating a map for team bingo_orange - mapId=45
+[01:27:47] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=46
+[01:27:48] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:48] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=47
+[01:27:48] [Server thread/INFO]: Creating a map for team bingo_gray - mapId=48
+[01:27:48] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:49] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:50] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1888172215966436936
+[01:27:51] [Server thread/INFO]: Re-drawing map_null for team null (88.593490ms)
+[01:27:51] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:51] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:51] [Server thread/INFO]: [CardService] Using random BINGO card seed: -60693200134673535
+[01:27:51] [Server thread/INFO]: Re-drawing map_null for team null (87.933786ms)
+[01:27:51] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:51] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:51] [Server thread/INFO]: [CardService] Using random BINGO card seed: 5460939403317739040
+[01:27:51] [Server thread/INFO]: Re-drawing map_null for team null (39.607283ms)
+[01:27:51] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:52] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:52] [Server thread/INFO]: [CardService] Using random BINGO card seed: 3666661881685101934
+[01:27:52] [Server thread/INFO]: Re-drawing map_null for team null (27.952099ms)
+[01:27:52] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:52] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:53] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:27:53] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1943638831972863170
+[01:27:53] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:53] [Server thread/INFO]: Re-drawing map_null for team null (72.065559ms)
+[01:27:53] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:27:53] [Server thread/INFO]: [CardService] Using random BINGO card seed: 8403381666180007644
+[01:27:53] [Server thread/INFO]: Re-drawing map_null for team null (45.933721ms)
+[01:27:53] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:53] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:27:53] [Server thread/INFO]: [CardService] Using random BINGO card seed: -9077317030676887317
+[01:27:53] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:53] [Server thread/INFO]: Re-drawing map_null for team null (40.308104ms)
+[01:27:53] [Server thread/INFO]: [CardService] Using random BINGO card seed: 3562672804370561972
+[01:27:54] [Server thread/INFO]: Re-drawing map_null for team null (36.938554ms)
+[01:27:54] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: -1965872412453337027
+[01:27:54] [Server thread/INFO]: Re-drawing map_null for team null (28.870882ms)
+[01:27:54] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7853178482202136551
+[01:27:54] [Server thread/INFO]: Re-drawing map_null for team null (78.292925ms)
+[01:27:54] [Server thread/INFO]: Re-drawing map_47 for team pink (8.336501ms)
+[01:27:54] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: 3558895145228845118
+[01:27:54] [Server thread/INFO]: Re-drawing map_null for team null (33.057294ms)
+[01:27:54] [Server thread/INFO]: Re-drawing map_47 for team pink (2.890128ms)
+[01:27:54] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:54] [Server thread/INFO]: [CardService] Using random BINGO card seed: 7569944959632977493
+[01:27:54] [Server thread/INFO]: Re-drawing map_null for team null (49.648654ms)
+[01:27:55] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:55] [Server thread/INFO]: [CardService] Using random BINGO card seed: -5002692155017666078
+[01:27:55] [Server thread/INFO]: Re-drawing map_null for team null (89.417333ms)
+[01:27:55] [Server thread/INFO]: Re-drawing map_47 for team pink (3.174961ms)
+[01:27:55] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:56] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:56] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1774353242872059437
+[01:27:56] [Server thread/INFO]: Re-drawing map_null for team null (76.462555ms)
+[01:27:56] [Server thread/INFO]: Re-drawing map_47 for team pink (5.362688ms)
+[01:27:56] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:56] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:27:57] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:27:57] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:02] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:28:02] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:05] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:28:06] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:07] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:28:07] [Server thread/INFO]: Silver_boy0607 lost connection: Disconnected
+[01:28:07] [Server thread/INFO]: Silver_boy0607 left the game
+[01:28:07] [Server thread/INFO]: [voicechat] Disconnecting client Silver_boy0607
+[01:28:09] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1774353242872059437
+[01:28:11] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1774353242872059437
+[01:28:11] [Server thread/INFO]: Re-drawing map_null for team null (4.047656ms)
+[01:28:12] [Server thread/INFO]: Silver_boy0607[/100.114.62.119:60341] logged in with entity id 1185 at (11.53237396829234, 21.0, 5.779183465576036)
+[01:28:12] [Server thread/INFO]: Silver_boy0607 joined the game
+[01:28:12] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:13] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1774353242872059437
+[01:28:15] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:28:16] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:17] [Server thread/INFO]: [CardService] Using random BINGO card seed: 1774353242872059437
+[01:28:19] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[01:28:20] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[01:28:21] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[01:28:21] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[01:28:21] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[01:28:21] [Server thread/INFO]: Spawning team bingo_pink near chunk (-7, 3)
+[01:28:21] [Server thread/INFO]: Spawning team bingo_gray near chunk (7, -3)
+[01:28:21] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:28:21] [Server thread/INFO]:   BINGO Start!
+[01:28:21] [Server thread/INFO]:   Mode: Standard
+[01:28:21] [Server thread/INFO]:   Features: PvP
+[01:28:21] [Server thread/INFO]:   Goal: 1 line
+[01:28:21] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
+[01:28:21] [Server thread/INFO]:   Filter: Everything
+[01:28:21] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:28:21] [Server thread/INFO]: Using spawn position [-109, 69, 57] for bingo_pink
+[01:28:21] [Server thread/INFO]: Skipping chunk (7, -3) which contains no valid spawn locations
+[01:28:21] [Server thread/INFO]: Skipping chunk (8, -3) which contains no valid spawn locations
+[01:28:21] [Server thread/INFO]: Skipping chunk (9, -3) which contains no valid spawn locations
+[01:28:21] [Server thread/INFO]: Skipping chunk (10, -3) which contains no valid spawn locations
+[01:28:21] [Server thread/INFO]: Skipping chunk (11, -3) which contains no valid spawn locations
+[01:28:21] [Server thread/INFO]: Skipping chunk (12, -3) which contains no valid spawn locations
+[01:28:22] [Server thread/INFO]: Using spawn position [211, 65, -44] for bingo_gray
+[01:28:22] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[01:28:22] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 162 chunks within a view distance of 4...
+[01:28:37] [Server thread/INFO]: [SpawnPreloadingController] Finished preloading spawn chunks in 15.122246524s
+[01:28:37] [Server thread/INFO]: GameState changed: PRELOADING -> LOADING
+[01:28:37] [Server thread/INFO]: Waiting until all players have loaded spawn terrain...
+[01:28:37] [Server thread/INFO]: Waiting until all players have loaded spawn terrain... Done! (289.774569ms)
+[01:28:37] [Server thread/INFO]: GameState changed: LOADING -> COUNTDOWN
+[01:28:45] [Server thread/INFO]: GameState changed: COUNTDOWN -> PLAYING
+[01:28:45] [Server thread/INFO]: DenverKxng has completed the challenge [Cover Me in Debris]
+[01:28:45] [Server thread/INFO]: DenverKxng has made the advancement [Isn't It Iron Pick]
+[01:28:45] [Server thread/INFO]: Silver_boy0607 has completed the challenge [Cover Me in Debris]
+[01:28:45] [Server thread/INFO]: Silver_boy0607 has made the advancement [Isn't It Iron Pick]
+[01:29:28] [Server thread/INFO]: [DenverKxng: Set own game mode to Spectator Mode]
+[01:29:33] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:29:35] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:29:49] [Server thread/INFO]: DenverKxng has made the advancement [Monster Hunter]
+[01:30:53] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got minecraft:crafting_table
+[01:30:53] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=1, lines=0, cards=0)
+[01:31:45] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:31:47] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:31:55] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:32:02] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:32:31] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:32:38] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got yet-another-minecraft-bingo:challenge/many_carrot
+[01:32:38] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=2, lines=0, cards=0)
+[01:32:48] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got yet-another-minecraft-bingo:challenge/many_kelp
+[01:32:48] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=3, lines=0, cards=0)
+[01:32:51] [Server thread/INFO]: [DenverKxng: Teleported DenverKxng to Silver_boy0607]
+[01:32:54] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:33:13] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:33:14] [Server thread/INFO]: Silver_boy0607 was slain by DenverKxng
+[01:33:21] [Server thread/INFO]: DenverKxng has made the advancement [Getting an Upgrade]
+[01:33:21] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got minecraft:stone_pickaxe
+[01:33:21] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=4, lines=0, cards=0)
+[01:33:33] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got minecraft:dripstone_block
+[01:33:33] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=5, lines=0, cards=0)
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] DenverKxng got minecraft:fletching_table
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] Updated score for team bingo_pink: TeamScore(items=6, lines=1, cards=0)
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] Team bingo_pink has completed their card
+[01:33:39] [Server thread/INFO]: [ScoredItemCheck] Ending the game because FirstWin was satisfied
+[01:33:39] [Server thread/INFO]: Writing game result to stats.db...
+[01:33:39] [Server thread/INFO]: Writing game result to stats.db... - done in 33.204833ms!
+[01:33:39] [Server thread/INFO]: GameState changed: PLAYING -> POSTGAME
+[01:33:39] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:33:39] [Server thread/INFO]:   [🌺 DenverKxng] completed their card!
+[01:33:39] [Server thread/INFO]:   Game duration: 04m 53s
+[01:33:39] [Server thread/INFO]:   Seed: [-7188488649753381793]
+[01:33:39] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[01:33:39] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[01:33:41] [Server thread/INFO]: [ReadyController] Starting the POSTGAME timer for 600 seconds
+[01:34:17] [Server thread/INFO]: Noahkatz_2000[/100.93.183.93:62994] logged in with entity id 3340 at (-6.5, 72.0, -3.5)
+[01:34:17] [Server thread/INFO]: [VoiceIntegration] Deferring group join for 28a288f9-fdd0-3f7a-ab78-b581ea0af187
+[01:34:17] [Server thread/INFO]: Noahkatz_2000 joined the game
+[01:34:55] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:37:01] [Server thread/INFO]: [ReadyController] Reached the end of the POSTGAME timer - running reset.
+[01:37:01] [Server thread/INFO]: Resetting worlds...
+[01:37:01] [Server thread/INFO]: [Reset] Clearing game data
+[01:37:01] [Server thread/INFO]: [Reset] Recreating worlds
+[01:37:01] [Server thread/INFO]: [Reset] Saving...
+[01:37:01] [Server thread/INFO]: [Reset] Saving... - done in 45.224580ms!
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:overworld...
+[01:37:01] [C2ME Storage #3/INFO]: Storage thread Thread[#71,C2ME Storage #3,5,main] stopped
+[01:37:01] [C2ME Storage #2/INFO]: Storage thread Thread[#70,C2ME Storage #2,5,main] stopped
+[01:37:01] [C2ME Storage #1/INFO]: Storage thread Thread[#69,C2ME Storage #1,5,main] stopped
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:overworld... - done in 26.478628ms!
+[01:37:01] [Server thread/INFO]: [Reset] Closing bingo:lobby...
+[01:37:01] [C2ME Storage #6/INFO]: Storage thread Thread[#76,C2ME Storage #6,5,main] stopped
+[01:37:01] [C2ME Storage #5/INFO]: Storage thread Thread[#75,C2ME Storage #5,5,main] stopped
+[01:37:01] [Server thread/INFO]: [Reset] Closing bingo:lobby... - done in 18.423049ms!
+[01:37:01] [C2ME Storage #4/INFO]: Storage thread Thread[#74,C2ME Storage #4,5,main] stopped
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:the_end...
+[01:37:01] [C2ME Storage #7/INFO]: Storage thread Thread[#78,C2ME Storage #7,5,main] stopped
+[01:37:01] [C2ME Storage #8/INFO]: Storage thread Thread[#79,C2ME Storage #8,5,main] stopped
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:the_end... - done in 1.311856ms!
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:the_nether...
+[01:37:01] [C2ME Storage #12/INFO]: Storage thread Thread[#84,C2ME Storage #12,5,main] stopped
+[01:37:01] [C2ME Storage #11/INFO]: Storage thread Thread[#83,C2ME Storage #11,5,main] stopped
+[01:37:01] [C2ME Storage #9/INFO]: Storage thread Thread[#80,C2ME Storage #9,5,main] stopped
+[01:37:01] [Server thread/INFO]: [Reset] Closing minecraft:the_nether... - done in 911.723us!
+[01:37:01] [C2ME Storage #10/INFO]: Storage thread Thread[#82,C2ME Storage #10,5,main] stopped
+[01:37:01] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby...
+[01:37:01] [Server thread/INFO]: [MenuController] Preparing the BINGO lobby... - done in 138.743073ms!
+[01:37:01] [Server thread/INFO]: [Reset] Loading new worlds...
+[01:37:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 244.4 ms
+[01:37:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 23.80 μs
+[01:37:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.597 ms
+[01:37:01] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 2.272 ms
+[01:37:01] [Server thread/INFO]: [Reset] Loading new worlds... - done in 376.358575ms!
+[01:37:01] [Server thread/INFO]: [Reset] Transferring game state
+[01:37:01] [Server thread/INFO]: [Reset] Teleporting players back to lobby
+[01:37:01] [Server thread/INFO]: GameState changed: POSTGAME -> PREGAME
+[01:37:01] [Server thread/INFO]: [CardService] Generating initial cards from game-options.json
+[01:37:01] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:01] [Server thread/INFO]: Set lobby spawnpoint to ([0, 17, 1], -180.0)
+[01:37:01] [Server thread/INFO]: Set menu position to ( 0.000E+0  1.700E+1 -5.000E+0  1.000E+0)
+[01:37:01] [Server thread/INFO]: [MenuController] Spawning lobby menu at ( 0.000E+0  1.700E+1 -5.000E+0)
+[01:37:01] [Server thread/INFO]: [MenuController] Locating team entities...
+[01:37:05] [Server thread/INFO]: [MenuController] Locating team entities... - done in 3.457583257s!
+[01:37:05] [Server thread/INFO]: Resetting worlds... - done in 4.388274958s!
+[01:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4341ms or 86 ticks behind
+[01:37:05] [Server thread/INFO]: Re-drawing map_null for team null (162.850762ms)
+[01:37:09] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:37:15] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:16] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:17] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:17] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:18] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:37:21] [Server thread/INFO]: [CardService] Using random BINGO card seed: 6269817978290487304
+[01:38:08] [Server thread/INFO]: Creating a map for team bingo_green - mapId=50
+[01:38:20] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:38:40] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:38:46] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:39:01] [Server thread/INFO]: [Not Secure] <DenverKxng> es fabric
+[01:39:07] [Server thread/INFO]: [Not Secure] <DenverKxng> si
+[01:39:11] [Server thread/INFO]: [Not Secure] <DenverKxng> ahora estas como sin mods
+[01:39:18] [Server thread/INFO]: [Not Secure] <DenverKxng> mira mi pantalla ps
+[01:39:27] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:39:30] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:39:44] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:39:46] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:41:21] [Server thread/INFO]: Noahkatz_2000 lost connection: Timed out
+[01:41:21] [Server thread/INFO]: Noahkatz_2000 left the game
+[01:41:21] [Server thread/INFO]: [voicechat] Disconnecting client Noahkatz_2000
+[01:41:21] [Server thread/WARN]: handleDisconnection() called twice
+[01:46:51] [Server thread/INFO]: Noahkatz_2000[/100.93.183.93:57026] logged in with entity id 4094 at (-0.8052496132819515, 16.0, 1.5514992491270703)
+[01:46:51] [Server thread/INFO]: Noahkatz_2000 joined the game
+[01:46:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2424ms or 48 ticks behind
+[01:54:42] [Server thread/INFO]: Silver_boy0607 lost connection: Disconnected
+[01:54:42] [Server thread/INFO]: Silver_boy0607 left the game
+[01:54:42] [Server thread/INFO]: [voicechat] Disconnecting client Silver_boy0607
+[01:54:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@5c7d60b4[id=66f49aec-0096-3166-bc92-19f80c48c2b9,name=Gallo_ccc,properties={}] lost connection: Disconnected
+[01:54:54] [Server thread/INFO]: Gallo_ccc[/100.98.219.58:52120] logged in with entity id 4104 at (-3.5, 63.0, 10.5)
+[01:54:54] [Server thread/INFO]: Gallo_ccc joined the game
+[01:54:54] [IO-Worker-48/INFO]: [StatsSyncController] Broadcasting stats hash to player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[01:54:54] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:54:55] [Server thread/INFO]: [voicechat] Received secret request of Gallo_ccc (18)
+[01:54:55] [Server thread/INFO]: [voicechat] Sent secret to Gallo_ccc
+[01:54:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[01:54:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[01:54:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Gallo_ccc (66f49aec-0096-3166-bc92-19f80c48c2b9) successfully connected to voice chat
+[01:57:08] [Server thread/INFO]: [Not Secure] <DenverKxng> a
+[01:57:11] [Server thread/INFO]: [Not Secure] <DenverKxng> no xd
+[01:57:20] [Server thread/INFO]: [Not Secure] <DenverKxng> ya tienen?
+[01:57:26] [Server thread/INFO]: [Not Secure] <DenverKxng> c
+[01:57:32] [Server thread/INFO]: [Not Secure] <DenverKxng> a qn se los instalo xd
+[01:57:37] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:58:19] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:58:48] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:58:49] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:59:01] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:59:04] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:59:06] [Server thread/INFO]: [DenverKxng: Set own game mode to Survival Mode]
+[01:59:42] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[01:59:57] [Server thread/INFO]: Silver_boy0607[/100.114.62.119:60897] logged in with entity id 4168 at (-5.512499988079071, 16.9375, -2.6932310263307864)
+[01:59:57] [Server thread/INFO]: Silver_boy0607 joined the game
+[01:59:59] [Server thread/INFO]: Noahkatz_2000 lost connection: Disconnected
+[01:59:59] [Server thread/INFO]: Noahkatz_2000 left the game
+[01:59:59] [Server thread/INFO]: [voicechat] Disconnecting client Noahkatz_2000
+[02:00:03] [Server thread/INFO]: Noahkatz_2000[/100.93.183.93:58449] logged in with entity id 4169 at (17.32735393549922, 26.0, -26.1379519827504)
+[02:00:03] [Server thread/INFO]: Noahkatz_2000 joined the game
+[02:00:28] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 66f49aec-0096-3166-bc92-19f80c48c2b9...
+[02:00:28] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[02:00:52] [Server thread/WARN]: Noahkatz_2000 moved too quickly! 0.8713492121592665,-10.201788143051395,-0.2333513012225481
+[02:00:53] [Server thread/WARN]: Noahkatz_2000 moved too quickly! 0.44696606265112493,-10.287592896255179,1.5129238958104345
+[02:00:58] [Server thread/WARN]: Noahkatz_2000 moved too quickly! 0.657718333703242,-18.39961239159487,-0.3934177200123017
+[02:02:03] [Server thread/WARN]: Noahkatz_2000 moved too quickly! 0.05266871662186645,-13.746705403743874,-0.048602287329380545
+[02:02:05] [Server thread/WARN]: Noahkatz_2000 moved too quickly! 0.0,-10.188594643186825,0.0
+[02:03:07] [Server thread/INFO]: Noahkatz_2000 lost connection: Disconnected
+[02:03:07] [Server thread/INFO]: Noahkatz_2000 left the game
+[02:03:07] [Server thread/INFO]: [voicechat] Disconnecting client Noahkatz_2000
+[02:03:19] [Server thread/INFO]: Gallo_ccc lost connection: Disconnected
+[02:03:19] [Server thread/INFO]: Gallo_ccc left the game
+[02:03:19] [Server thread/INFO]: [voicechat] Disconnecting client Gallo_ccc
+[02:05:36] [Server thread/INFO]: DenverKxng lost connection: Disconnected
+[02:05:36] [Server thread/INFO]: DenverKxng left the game
+[02:05:36] [Server thread/INFO]: [voicechat] Disconnecting client DenverKxng
+[02:06:01] [Server thread/INFO]: Noahkatz_2000[/100.93.183.93:52391] logged in with entity id 4186 at (16.87264336825293, 28.0625, -31.366270720682568)
+[02:06:01] [Server thread/INFO]: Noahkatz_2000 joined the game
+[02:06:14] [Server thread/INFO]: Silver_boy0607 lost connection: Disconnected
+[02:06:14] [Server thread/INFO]: Silver_boy0607 left the game
+[02:06:14] [Server thread/INFO]: [voicechat] Disconnecting client Silver_boy0607
+[02:06:31] [Server thread/INFO]: Noahkatz_2000 lost connection: Disconnected
+[02:06:31] [Server thread/INFO]: Noahkatz_2000 left the game
+[02:06:31] [Server thread/INFO]: [voicechat] Disconnecting client Noahkatz_2000
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4187, l='ServerLevel[world]', x=-3.55, y=18.55, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4188, l='ServerLevel[world]', x=-4.80, y=18.50, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4189, l='ServerLevel[world]', x=-4.20, y=17.70, z=-5.55]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4190, l='ServerLevel[world]', x=-4.80, y=17.70, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4191, l='ServerLevel[world]', x=-4.65, y=17.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4192, l='ServerLevel[world]', x=-4.65, y=17.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4193, l='ServerLevel[world]', x=-4.20, y=17.90, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4194, l='ServerLevel[world]', x=-4.20, y=17.80, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4195, l='ServerLevel[world]', x=-2.90, y=17.70, z=-5.55]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4196, l='ServerLevel[world]', x=-3.50, y=17.70, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4197, l='ServerLevel[world]', x=-3.35, y=17.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4198, l='ServerLevel[world]', x=-3.35, y=17.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4199, l='ServerLevel[world]', x=-2.90, y=17.90, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4200, l='ServerLevel[world]', x=-2.90, y=17.80, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4201, l='ServerLevel[world]', x=-4.20, y=16.90, z=-5.55]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4202, l='ServerLevel[world]', x=-4.80, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4203, l='ServerLevel[world]', x=-4.65, y=17.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4204, l='ServerLevel[world]', x=-4.65, y=17.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4205, l='ServerLevel[world]', x=-4.20, y=17.10, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4206, l='ServerLevel[world]', x=-4.20, y=17.00, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4207, l='ServerLevel[world]', x=-2.90, y=16.90, z=-5.55]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4208, l='ServerLevel[world]', x=-3.50, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4209, l='ServerLevel[world]', x=-3.35, y=17.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4210, l='ServerLevel[world]', x=-3.35, y=17.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4211, l='ServerLevel[world]', x=-2.90, y=17.10, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4212, l='ServerLevel[world]', x=-2.90, y=17.00, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4213, l='ServerLevel[world]', x=-3.55, y=16.40, z=-6.20]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4214, l='ServerLevel[world]', x=-4.80, y=16.40, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4215, l='ServerLevel[world]', x=-4.65, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4216, l='ServerLevel[world]', x=-3.55, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4217, l='ServerLevel[world]', x=-1.20, y=18.55, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4218, l='ServerLevel[world]', x=-2.20, y=18.50, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4219, l='ServerLevel[world]', x=-0.35, y=18.10, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4220, l='ServerLevel[world]', x=-0.50, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4221, l='ServerLevel[world]', x=-0.35, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4222, l='ServerLevel[world]', x=-2.05, y=18.10, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4223, l='ServerLevel[world]', x=-2.20, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4224, l='ServerLevel[world]', x=-2.05, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4225, l='ServerLevel[world]', x=-1.80, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4226, l='ServerLevel[world]', x=-1.20, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4227, l='ServerLevel[world]', x=-1.20, y=17.70, z=-5.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4228, l='ServerLevel[world]', x=-2.20, y=17.70, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4229, l='ServerLevel[world]', x=-2.05, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4230, l='ServerLevel[world]', x=-1.20, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4231, l='ServerLevel[world]', x=-1.20, y=17.35, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4232, l='ServerLevel[world]', x=-2.20, y=17.30, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4233, l='ServerLevel[world]', x=-0.35, y=16.90, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4234, l='ServerLevel[world]', x=-0.50, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4235, l='ServerLevel[world]', x=-0.35, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4236, l='ServerLevel[world]', x=-2.05, y=16.90, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4237, l='ServerLevel[world]', x=-2.20, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4238, l='ServerLevel[world]', x=-2.05, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4239, l='ServerLevel[world]', x=-1.80, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4240, l='ServerLevel[world]', x=-1.20, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4241, l='ServerLevel[world]', x=-1.20, y=16.40, z=-5.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4242, l='ServerLevel[world]', x=-2.20, y=16.40, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4243, l='ServerLevel[world]', x=-2.05, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4244, l='ServerLevel[world]', x=-1.20, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4245, l='ServerLevel[world]', x=0.70, y=18.55, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4246, l='ServerLevel[world]', x=-0.10, y=18.50, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4247, l='ServerLevel[world]', x=0.70, y=18.10, z=-5.75]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4248, l='ServerLevel[world]', x=-0.10, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4249, l='ServerLevel[world]', x=0.05, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4250, l='ServerLevel[world]', x=0.05, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4251, l='ServerLevel[world]', x=0.70, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4252, l='ServerLevel[world]', x=0.70, y=17.70, z=-5.75]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4253, l='ServerLevel[world]', x=-0.10, y=17.70, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4254, l='ServerLevel[world]', x=0.05, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4255, l='ServerLevel[world]', x=0.05, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4256, l='ServerLevel[world]', x=0.70, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4257, l='ServerLevel[world]', x=0.70, y=17.30, z=-5.75]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4258, l='ServerLevel[world]', x=-0.10, y=17.30, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4259, l='ServerLevel[world]', x=0.05, y=17.35, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4260, l='ServerLevel[world]', x=0.05, y=17.35, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4261, l='ServerLevel[world]', x=0.70, y=17.35, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4262, l='ServerLevel[world]', x=0.70, y=16.90, z=-5.75]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4263, l='ServerLevel[world]', x=-0.10, y=16.90, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4264, l='ServerLevel[world]', x=0.05, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4265, l='ServerLevel[world]', x=0.05, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4266, l='ServerLevel[world]', x=0.70, y=16.95, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4267, l='ServerLevel[world]', x=0.70, y=16.40, z=-5.75]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4268, l='ServerLevel[world]', x=-0.10, y=16.40, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4269, l='ServerLevel[world]', x=0.05, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4270, l='ServerLevel[world]', x=0.70, y=16.50, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4271, l='ServerLevel[world]', x=2.60, y=18.55, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4272, l='ServerLevel[world]', x=1.60, y=18.50, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4273, l='ServerLevel[world]', x=3.45, y=18.10, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4274, l='ServerLevel[world]', x=3.30, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4275, l='ServerLevel[world]', x=3.45, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4276, l='ServerLevel[world]', x=1.75, y=18.10, z=-5.10]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4277, l='ServerLevel[world]', x=1.60, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4278, l='ServerLevel[world]', x=1.75, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4279, l='ServerLevel[world]', x=2.00, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4280, l='ServerLevel[world]', x=2.60, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4281, l='ServerLevel[world]', x=2.60, y=17.70, z=-5.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4282, l='ServerLevel[world]', x=1.60, y=17.70, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4283, l='ServerLevel[world]', x=2.60, y=17.75, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4284, l='ServerLevel[world]', x=2.60, y=17.05, z=-5.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4285, l='ServerLevel[world]', x=1.60, y=17.05, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4286, l='ServerLevel[world]', x=1.75, y=17.23, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4287, l='ServerLevel[world]', x=2.60, y=17.23, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4288, l='ServerLevel[world]', x=2.60, y=16.40, z=-5.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4289, l='ServerLevel[world]', x=1.60, y=16.40, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4290, l='ServerLevel[world]', x=1.75, y=16.58, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4291, l='ServerLevel[world]', x=2.60, y=16.58, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4292, l='ServerLevel[world]', x=4.75, y=18.55, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4293, l='ServerLevel[world]', x=3.70, y=18.50, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4294, l='ServerLevel[world]', x=4.75, y=18.15, z=-4.95]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4295, l='ServerLevel[world]', x=3.70, y=18.10, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8150['Interaction'/4296, l='ServerLevel[world]', x=4.75, y=16.40, z=-6.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8115['Block Display'/4297, l='ServerLevel[world]', x=3.70, y=16.40, z=-5.00]
+[02:06:31] [Server thread/WARN]: UUID of added entity already exists: class_8123['Text Display'/4298, l='ServerLevel[world]', x=4.75, y=17.10, z=-4.95]
+[02:07:31] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[02:09:21] [Server thread/INFO]: Silver_boy0607[/100.114.62.119:62267] logged in with entity id 138363 at (-5.247831315152968, 23.0625, -13.694719745226815)
+[02:09:21] [Server thread/INFO]: Silver_boy0607 joined the game
+[02:09:21] [IO-Worker-72/INFO]: [StatsSyncController] Broadcasting stats hash to player 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[02:09:22] [Server thread/INFO]: [voicechat] Received secret request of Silver_boy0607 (18)
+[02:09:22] [Server thread/INFO]: [voicechat] Sent secret to Silver_boy0607
+[02:09:22] [IO-Worker-72/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[02:09:22] [IO-Worker-72/INFO]: [StatsSyncController] Broadcasting 6 known gameIds to the client
+[02:09:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[02:09:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 20806760-9c30-3e2d-9fa9-a3b78c8f8e57
+[02:09:24] [VoiceChatPacketProcessingThread/ERROR]: [SimpleVoiceEntrypoint] Error running onPlayerConnected:
+java.lang.NullPointerException: Cannot invoke "de.maxhenkel.voicechat.voice.server.Group.getId()" because the return value of "de.maxhenkel.voicechat.plugins.impl.GroupImpl.getGroup()" is null
+	at knot/de.maxhenkel.voicechat.plugins.impl.VoicechatConnectionImpl.setGroup(VoicechatConnectionImpl.java:66) ~[voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/me.jfenn.bingo.integrations.voice.SimpleVoiceApi$GroupHandle.addPlayer(SimpleVoiceApi.kt:55) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.integrations.voice.SimpleVoiceEntrypoint.onPlayerConnected(SimpleVoiceEntrypoint.kt:48) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/de.maxhenkel.voicechat.plugins.PluginManager.dispatchEvent(PluginManager.java:138) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/de.maxhenkel.voicechat.plugins.PluginManager.onPlayerConnected(PluginManager.java:185) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/de.maxhenkel.voicechat.voice.server.Server$ProcessThread.run(Server.java:294) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+[02:09:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Silver_boy0607 (20806760-9c30-3e2d-9fa9-a3b78c8f8e57) successfully connected to voice chat
+[02:09:55] [Server thread/INFO]: DenverKxng[/100.92.120.57:62318] logged in with entity id 138863 at (2.6600347062458978, 21.121296840539188, -4.987500011920929)
+[02:09:55] [Server thread/INFO]: DenverKxng joined the game
+[02:09:55] [IO-Worker-72/INFO]: [StatsSyncController] Broadcasting stats hash to player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[02:09:55] [Server thread/INFO]: [voicechat] Received secret request of DenverKxng (18)
+[02:09:55] [Server thread/INFO]: [voicechat] Sent secret to DenverKxng
+[02:09:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[02:09:56] [IO-Worker-72/INFO]: [StatsSyncController] Client responded with a hash mismatch - starting sync for player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[02:09:56] [IO-Worker-72/INFO]: [StatsSyncController] Broadcasting 3 known gameIds to the client
+[02:09:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 92bacc08-07e1-34b6-901c-37eb5a89026e
+[02:09:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player DenverKxng (92bacc08-07e1-34b6-901c-37eb5a89026e) successfully connected to voice chat
+[02:09:59] [Server thread/INFO]: [DenverKxng: Set own game mode to Creative Mode]
+[02:10:04] [Server thread/INFO]: [DenverKxng: Teleported Silver_boy0607 to Interaction]
+[02:10:24] [Server thread/INFO]: [Not Secure] <DenverKxng> deja unn rrato
+[02:10:25] [Server thread/INFO]: [Not Secure] <DenverKxng> ave
+[02:10:30] [Server thread/INFO]: [Not Secure] <DenverKxng> xd
+[02:10:32] [Server thread/INFO]: [Not Secure] <DenverKxng> asle eso a noah ps
+[02:10:44] [Server thread/INFO]: [Not Secure] <DenverKxng> solo q ponga los mods en mods
+[02:10:50] [Server thread/INFO]: [Not Secure] <DenverKxng> voy hacer tarea ya vengo
+[02:11:20] [Server thread/INFO]: [Not Secure] <Silver_boy0607> t
+[02:12:56] [Server thread/INFO]: Noahkatz_2000[/100.93.183.93:55042] logged in with entity id 138865 at (23.839310375457327, 29.0, 15.867389815086002)
+[02:12:56] [Server thread/INFO]: Noahkatz_2000 joined the game
+[02:12:56] [IO-Worker-73/INFO]: [StatsSyncController] Broadcasting stats hash to player 28a288f9-fdd0-3f7a-ab78-b581ea0af187
+[02:12:57] [Server thread/INFO]: [voicechat] Received secret request of Noahkatz_2000 (18)
+[02:12:57] [Server thread/INFO]: [voicechat] Sent secret to Noahkatz_2000
+[02:12:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 28a288f9-fdd0-3f7a-ab78-b581ea0af187
+[02:12:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 28a288f9-fdd0-3f7a-ab78-b581ea0af187
+[02:12:59] [VoiceChatPacketProcessingThread/ERROR]: [SimpleVoiceEntrypoint] Error running onPlayerConnected:
+java.lang.NullPointerException: Cannot invoke "de.maxhenkel.voicechat.voice.server.Group.getId()" because the return value of "de.maxhenkel.voicechat.plugins.impl.GroupImpl.getGroup()" is null
+	at knot/de.maxhenkel.voicechat.plugins.impl.VoicechatConnectionImpl.setGroup(VoicechatConnectionImpl.java:66) ~[voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/me.jfenn.bingo.integrations.voice.SimpleVoiceApi$GroupHandle.addPlayer(SimpleVoiceApi.kt:55) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/me.jfenn.bingo.integrations.voice.SimpleVoiceEntrypoint.onPlayerConnected(SimpleVoiceEntrypoint.kt:48) ~[bingo-2.6.2+mc1.21.5.jar:?]
+	at knot/de.maxhenkel.voicechat.plugins.PluginManager.dispatchEvent(PluginManager.java:138) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/de.maxhenkel.voicechat.plugins.PluginManager.onPlayerConnected(PluginManager.java:185) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+	at knot/de.maxhenkel.voicechat.voice.server.Server$ProcessThread.run(Server.java:294) [voicechat-fabric-1.21.5-2.5.30.jar:?]
+[02:12:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Noahkatz_2000 (28a288f9-fdd0-3f7a-ab78-b581ea0af187) successfully connected to voice chat
+[02:14:34] [Server thread/INFO]: [Not Secure] <DenverKxng> y gallo?
+[02:14:40] [Server thread/INFO]: Gallo_ccc[/100.98.219.58:63634] logged in with entity id 138866 at (52.66995922714313, 31.0, 13.675823311021688)
+[02:14:40] [Server thread/INFO]: Gallo_ccc joined the game
+[02:14:40] [IO-Worker-75/INFO]: [StatsSyncController] Broadcasting stats hash to player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[02:14:41] [Server thread/INFO]: [voicechat] Received secret request of Gallo_ccc (18)
+[02:14:41] [Server thread/INFO]: [voicechat] Sent secret to Gallo_ccc
+[02:14:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[02:14:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 66f49aec-0096-3166-bc92-19f80c48c2b9
+[02:14:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Gallo_ccc (66f49aec-0096-3166-bc92-19f80c48c2b9) successfully connected to voice chat
+[02:15:01] [Server thread/INFO]: [StatsLobbyController] Fetching summary for player 28a288f9-fdd0-3f7a-ab78-b581ea0af187...
+[02:15:01] [Server thread/INFO]: [StatsLobbyController] Finished fetching player summary!
+[02:15:09] [Server thread/INFO]: [Not Secure] <Gallo_ccc> chicos
+[02:15:13] [Server thread/INFO]: [Not Secure] <Gallo_ccc> no podre jugar
+[02:15:13] [Server thread/INFO]: Creating a map for team bingo_gray - mapId=51
+[02:15:13] [Server thread/INFO]: Re-drawing map_51 for team gray (4.862375ms)
+[02:15:13] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=52
+[02:15:13] [Server thread/INFO]: Re-drawing map_52 for team yellow (3.854189ms)
+[02:15:13] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=53
+[02:15:13] [Server thread/INFO]: Re-drawing map_53 for team blue (2.727969ms)
+[02:15:13] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=54
+[02:15:13] [Server thread/INFO]: Re-drawing map_54 for team aqua (2.637574ms)
+[02:15:14] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[02:15:15] [Server thread/INFO]: Creating a map for team bingo_orange - mapId=55
+[02:15:15] [Server thread/INFO]: Creating a map for team bingo_gray - mapId=56
+[02:15:15] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=57
+[02:15:15] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=58
+[02:15:15] [Server thread/INFO]: Re-drawing map_58 for team aqua (2.041820ms)
+[02:15:15] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[02:15:15] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[02:15:16] [Server thread/INFO]: Creating a map for team bingo_green - mapId=59
+[02:15:16] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=60
+[02:15:16] [Server thread/INFO]: Creating a map for team bingo_pink - mapId=61
+[02:15:16] [Server thread/INFO]: Creating a map for team bingo_gray - mapId=62
+[02:15:16] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[02:15:16] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[02:15:17] [Server thread/INFO]: Creating a map for team bingo_aqua - mapId=63
+[02:15:17] [Server thread/INFO]: Creating a map for team bingo_red - mapId=64
+[02:15:17] [Server thread/INFO]: Creating a map for team bingo_yellow - mapId=65
+[02:15:17] [Server thread/INFO]: Creating a map for team bingo_blue - mapId=66
+[02:15:17] [Server thread/INFO]: [ReadyController] Reset the timer, as the game options have changed
+[02:15:17] [Server thread/INFO]: [ReadyController] Starting the PREGAME timer for 600 seconds
+[02:15:29] [Server thread/INFO]: [Not Secure] <Gallo_ccc> chau bros
+[02:15:29] [Server thread/INFO]: GameState changed: PREGAME -> STARTING
+[02:15:29] [Server thread/INFO]: [SpreadPlayers] Initialized in dimension minecraft:overworld with coordinateScale=1.0, logicalHeight=384, bottomY=-64, seaLevel=63
+[02:15:29] [Server thread/INFO]: Spawning team bingo_aqua near chunk (15, 5)
+[02:15:29] [Server thread/INFO]: Spawning team bingo_red near chunk (5, -15)
+[02:15:29] [Server thread/INFO]: Spawning team bingo_yellow near chunk (-15, -5)
+[02:15:29] [Server thread/INFO]: Spawning team bingo_blue near chunk (-5, 15)
+[02:15:29] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[02:15:29] [Server thread/INFO]:   BINGO Start!
+[02:15:29] [Server thread/INFO]:   Mode: Standard
+[02:15:29] [Server thread/INFO]:   Features: PvP
+[02:15:29] [Server thread/INFO]:   Goal: 1 line
+[02:15:29] [Server thread/INFO]:   Difficulty: 0, 0, 0, 9, 16
+[02:15:29] [Server thread/INFO]:   Filter: Everything
+[02:15:29] [Server thread/INFO]: ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+[02:15:31] [Server thread/INFO]: Skipping chunk (37, -15) which contains no valid spawn locations
+[02:15:31] [Server thread/INFO]: [Not Secure] <DenverKxng> qqqq}
+[02:15:32] [Server thread/INFO]: Skipping chunk (39, 5) for invalid spawn block biome
+[02:15:33] [Server thread/INFO]: Skipping chunk (-19, -5) for invalid spawn block biome
+[02:15:33] [Server thread/INFO]: Skipping chunk (-33, 15) which contains no valid spawn locations
+[02:15:34] [Server thread/INFO]: Using spawn position [616, 71, -238] for bingo_red
+[02:15:35] [Server thread/INFO]: Skipping chunk (43, 5) which contains no valid spawn locations
+[02:15:35] [Server thread/INFO]: Skipping chunk (-23, -5) which contains no valid spawn locations
+[02:15:35] [Server thread/INFO]: Using spawn position [-533, 65, 250] for bingo_blue
+[02:15:35] [Server thread/INFO]: Skipping chunk (48, 5) which contains no valid spawn locations
+[02:15:35] [Server thread/INFO]: Skipping chunk (-24, -5) which contains no valid spawn locations
+[02:15:36] [Server thread/INFO]: Using spawn position [791, 87, 91] for bingo_aqua
+[02:15:36] [Server thread/INFO]: Skipping chunk (-25, -5) which contains no valid spawn locations
+[02:15:36] [Server thread/INFO]: Using spawn position [-415, 65, -70] for bingo_yellow
+[02:15:37] [Server thread/INFO]: GameState changed: STARTING -> PRELOADING
+[02:15:37] [Server thread/INFO]: [SpawnPreloadingController] Pre-generating 324 chunks within a view distance of 4...
+[02:15:42] [Server thread/INFO]: Gallo_ccc lost connection: Disconnected
+[02:15:42] [Server thread/INFO]: Gallo_ccc left the game
+[02:15:42] [Server thread/INFO]: [voicechat] Disconnecting client Gallo_ccc
